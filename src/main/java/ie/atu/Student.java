@@ -12,10 +12,10 @@ public class Student {
         this.email = "";
         this.course = "";
     }
-
     public Student(String name) {
         this.name = name;
     }
+
 
     public Student(String name, String email, String course) {
         this.name = name;
@@ -23,6 +23,9 @@ public class Student {
         this.course = course;
     }
 
+    public Student(String name) {
+        this.name = name;
+    }
     // Getter and Setter methods
     public String getName() {
         return name;
