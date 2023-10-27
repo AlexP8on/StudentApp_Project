@@ -20,5 +20,25 @@ public class StudentAppMain {
             student1.setEmail(scanner.nextLine());
             System.out.print("Enter student course: ");
             student1.setCourse(scanner.nextLine());
+
+            // Populating second student using constructor and setters
+            System.out.print("Enter student name: ");
+            String name2 = scanner.nextLine();
+            System.out.print("Enter student email: ");
+            String email2 = scanner.nextLine();
+            System.out.print("Enter student course: ");
+            String course2 = scanner.nextLine();
+            student2 = new Student(name2);
+            student2.setEmail(email2);
+            student2.setCourse(course2);
+
+            // Populating third student using constructor with parameters
+            System.out.print("Enter student name: ");
+            String name3 = scanner.nextLine();
+            System.out.print("Enter student email: ");
+            String email3 = scanner.nextLine();
+            System.out.print("Enter student course: ");
+            String course3 = scanner.nextLine();
+            student3 = new Student(name3, email3, course3);
         }
 }
