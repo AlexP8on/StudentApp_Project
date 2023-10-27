@@ -12,11 +12,17 @@ public class Student {
         this.email = "";
         this.course = "";
     }
+    public Student(String name) {
+        this.name = name;
+    }
+
+
     public Student(String name, String email, String course) {
         this.name = name;
         this.email = email;
         this.course = course;
     }
+
     public Student(String name) {
         this.name = name;
     }
