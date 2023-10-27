@@ -13,7 +13,7 @@ public class StudentAppMain {
             Student student2;
             Student student3;
 
-            // Populating first student using setters
+            // Populates first student using setters
             System.out.print("Enter student name: ");
             student1.setName(scanner.nextLine());
             System.out.print("Enter student email: ");
