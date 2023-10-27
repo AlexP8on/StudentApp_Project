@@ -41,4 +41,5 @@ public class StudentAppMain {
             String course3 = scanner.nextLine();
             student3 = new Student(name3, email3, course3);
         }
+
 }
