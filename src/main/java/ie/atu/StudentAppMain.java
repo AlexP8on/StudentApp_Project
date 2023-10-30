@@ -41,6 +41,7 @@ public class StudentAppMain {
             String course3 = scanner.nextLine();
             student3 = new Student(name3, email3, course3);
 
+            //Printing the inputs for each Student
             System.out.println("\nDetails of Student 1:");
             System.out.println("Name: " + student1.getName());
             System.out.println("Email: " + student1.getEmail());
