@@ -40,6 +40,24 @@ public class StudentAppMain {
             System.out.print("Enter student course: ");
             String course3 = scanner.nextLine();
             student3 = new Student(name3, email3, course3);
+
+            System.out.println("\nDetails of Student 1:");
+            System.out.println("Name: " + student1.getName());
+            System.out.println("Email: " + student1.getEmail());
+            System.out.println("Course: " + student1.getCourse());
+
+            System.out.println("\nDetails of Student 2:");
+            System.out.println("Name: " + student2.getName());
+            System.out.println("Email: " + student2.getEmail());
+            System.out.println("Course: " + student2.getCourse());
+
+            System.out.println("\nDetails of Student 3:");
+            System.out.println("Name: " + student3.getName());
+            System.out.println("Email: " + student3.getEmail());
+            System.out.println("Course: " + student3.getCourse());
+
+            // Close the scanner
+            scanner.close();
         }
 
 }
